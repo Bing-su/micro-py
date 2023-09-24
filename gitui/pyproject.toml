@@ -1,0 +1,23 @@
+[build-system]
+requires = ["maturin>=1.2,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "gitui-py"
+description = "gitui - Blazing 💥 fast terminal-ui for git written in rust 🦀"
+version = "0.24.3"
+requires-python = ">=3.8"
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["git", "tui"]
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+
+[project.urls]
+repository = "https://github.com/Bing-su/pip-binary-factory"
+
+[tool.maturin]
+bindings = "bin"
