@@ -7,3 +7,6 @@
 [submodule "lazygit/lazygit"]
 	path = lazygit/lazygit
 	url = https://github.com/jesseduffield/lazygit
+[submodule "gitui/rust"]
+	path = gitui/rust
+	url = https://github.com/extrawurst/gitui
